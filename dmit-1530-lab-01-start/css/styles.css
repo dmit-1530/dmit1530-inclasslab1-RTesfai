@@ -16,14 +16,97 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-}
-
-.container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 1rem;
+    color: var(--night);
     background-color: var(--french-gray);
 }
 
+.banner {
+    width: 100%;
+}
 
+.header {
+    padding: 1rem;
+    margin: 1rem 0;
+}
 
+.header h3 {
+    font-weight: 600;
+}
+
+.header p {
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+}
+
+.button {
+    border: 2px solid var(--night);
+    border-radius: 5px;
+    padding: 1rem;
+    text-decoration: none;
+    color: var(--night);
+    font-weight: bold;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.25rem;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.image-container img {
+    width: 47.5%;
+}
+
+section {
+    padding: 1rem;
+}
+
+h1,
+h2 {
+    color: var(--night);
+    font-family: 'Fjalla One', sans-serif;
+    margin-top: 1rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2.25rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+    padding-top: 1rem;
+}
+
+.footer {
+    color: var(--dark-slate-gray);
+    background-color: var(--night);
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.footer h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+p {
+    font-size: 1rem;
+    margin: 1rem 0;
+}
