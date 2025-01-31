@@ -21,7 +21,7 @@ body {
 }
 
 .banner {
-    width: 100%;
+    width: 100vw;
 }
 
 .header {
@@ -93,6 +93,7 @@ h3 {
 }
 
 .footer {
+    width: 100vw;
     color: var(--dark-slate-gray);
     background-color: var(--night);
     text-align: center;
